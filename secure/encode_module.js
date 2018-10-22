@@ -20,4 +20,4 @@ exports.decode = function () {
         encodeType = arguments[5] ? arguments[5] : "";
     var Adapter = new AdapterClass();
     return Adapter.decode(encodeModule, algorithm, enstring, returnType, encodeKey, encodeType);
-}
+};

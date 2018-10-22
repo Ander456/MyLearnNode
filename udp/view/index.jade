@@ -1,0 +1,7 @@
+include header
+    form.form-sign(action="upload?c=uploadAction", method="POST", enctype="multipart/form-data")
+        h2.form-signin-heading IMAGE SIZE
+        input.input-block-level(name="width", type="text", placeholder="width")
+        input.input-block-level(name="height", type="text", placeholder="height")
+        input(name="image", type="file")
+        button.btn.btn-large.btn-primary(type-"submit") UPLOAD IMAGE

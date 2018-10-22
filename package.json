@@ -1,0 +1,31 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buffertest.js",
+  "dependencies": {
+    "decamelize": "^2.0.0",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "heapdump": "^0.3.9",
+    "imagemagick": "^0.1.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.33",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ander456/MyLearnNode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ander456/MyLearnNode/issues"
+  },
+  "homepage": "https://github.com/Ander456/MyLearnNode#readme"
+}
